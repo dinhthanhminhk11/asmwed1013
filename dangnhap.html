@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="trangChu.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <a href="#"class="logo">FPOLY<br>HÀ NỘI<span>.</span></a>
+        <ul class="taomenu">
+            <li><a href="index.html">TRANG CHỦ</a></li>
+            <li><a href="gioithieu.html">GIỚI THIỆU</a></li>
+            <li><a href="dacsan.html">ẨM THỰC</a>
+                
+                    
+                
+            </li>
+            <li><a href="dulich.html">DU LỊCH</a></li>
+            
+            <li><a href="lienhe.html">TÀI KHOẢN</a></li>
+            <li><box-icon name='moon'></box-icon></li>
+        </ul>
+    </header>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle('sticky',window.scrollY > 0);
+        });
+    
+        </script>
+        <br>
+        <br>    
+        <br>
+        
+
+        <section class="lienhe" id="lienhe">
+            <h1 class="hello">Đăng Nhập</h1>
+    <div class="hello-title">
+        <div class="content-agile1">
+            <h2 class="agileits1">MINH BÉO</h2>
+            <p class="agileits2">Tôi Là Người Kiệm Lời Chỉ Thích Làm</p>
+        </div>
+        <div class="content-agile2">
+            <form action="#" >
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <div class="form-control w3layouts"> 
+                    <input type="text" id="firstname"  placeholder="Tên Đăng Nhập" >
+                </div>
+    
+                
+    
+                <div class="form-control agileinfo">	
+                    <input type="password" class="lock"  placeholder="Mật Khẩu" id="password1" >
+                </div>	
+    
+                		
+                
+                <input type="submit" class="register" value="Đăng Nhập" id='sign-in'>
+                
+            </form>
+            
+            <p class="icon">Đăng Nhập Bằng Tài Khoản Khác</p>
+            <ul class="danhsachicon">
+                <li><a href="https://www.facebook.com/profile.php?id=100015574238509"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UC3tjvjj27Gh3JQSaQWa0gWg/featured"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="minhdtph13562@fpt.edu.vn"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <footer>
+        <p class="copyright w3l">Cơ Sở Hà Nội</p>
+        <p class="copyright w3l">Tòa nhà FPT Polytechnic, Phố Trịnh Văn Bô, Xuân Phương, Nam Từ Liêm, Hà Nội</p>
+        <p class="copyright w3l">Điện Thoại: 0375784487</p>
+    </footer>
+        </section>
+        <script src="./dangnhap.js"></script>
+</body>
+</html>
